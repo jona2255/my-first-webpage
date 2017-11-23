@@ -1,6 +1,18 @@
+html { height: 100%; }
+
+body {
+  /* min-height: 100%; */
+  background-color: #dadada;
+  background-image: url("http://moviehole.net/img/killingJoke_53332ab7a92076.68058655.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: auto 100%;
+}
+
 /* This is a comment */
 #intro {
-  color: red;
+  color: black;
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
@@ -9,7 +21,6 @@
 .default {
   color: green;
   border: 1px solid black;
-  float: right;
   height: 50px;
 }
 
@@ -19,10 +30,4 @@
 
 .text-center {
     text-align:center;
-}
-
-body {
-background-color: #dadada;
-background-image: url("https://www.shropshirestar.com/resizer/ryxr-4I1l3BVQloKAJrAJsHt2k8=/1000x0/filters:quality(100)/arc-anglerfish-arc2-prod-shropshirestar-mna.s3.amazonaws.com/public/T24IKCMEE5BJHKBNDCINJK7ESE.jpg");
-
 }
