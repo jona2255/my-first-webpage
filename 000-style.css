@@ -3,11 +3,12 @@ html { height: 100%; }
 body {
   /* min-height: 100%; */
   background-color: #dadada;
-  background-image: url("http://moviehole.net/img/killingJoke_53332ab7a92076.68058655.jpg");
+  background-image: url("http://atomictoasters.com/wp-content/gallery/vintage-celluloid/cherry-tree-and-lava.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  background-size: auto 100%;
+
+  background-size: auto;
 }
 
 /* This is a comment */
@@ -27,7 +28,10 @@ body {
 #special-one {
   font-size: 22px;
 }
-
+#bye {
+  color: white;
+    
+}
 .text-center {
     text-align:center;
 }
