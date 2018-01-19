@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+
+}
+body {
+  /* min-height: 100%; */
+  background-color: #dadada;
+  background-image: url("https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfMAAAAJGI3OGUyNWIyLTI0NGEtNGI2Ny1iNWExLTM5MDNlMjk3YWNlMg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+
+  background-size: auto;
+}
+
+#header {
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  height: 15%;
+  overflow: auto;
+
+
+
+}
+#sidebar-left {
+  color: black;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  height: 25%;
+  width: 20%;
+  overflow: auto;
+
+}
+
+#sidebar-right {
+  color: black;
+  border: 1px solid black;
+  float: right;
+  text-align: center;
+  height: 25%;
+  width: 20%;
+
+  overflow: auto;
+
+}
+
+#content {
+  color: black;
+  border: 1px solid black;
+  height: 25%;
+  text-align: center;
+  overflow: auto;
+
+}
+
+#pooter {
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  float: inherit;
+  height: 25%;
+  overflow: auto;
+
+}

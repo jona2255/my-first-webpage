@@ -3,35 +3,22 @@ html { height: 100%; }
 body {
   /* min-height: 100%; */
   background-color: #dadada;
-  background-image: url("http://atomictoasters.com/wp-content/gallery/vintage-celluloid/cherry-tree-and-lava.jpg");
+  background-image: url("https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfMAAAAJGI3OGUyNWIyLTI0NGEtNGI2Ny1iNWExLTM5MDNlMjk3YWNlMg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
 
-  background-size: auto;
+  background-size: 100% 100%;
 }
 
 /* This is a comment */
 #intro {
   color: black;
   border: 1px solid black;
+  margin: 25%;
+  margin-bottom: 10%;
+  margin-top: 10%;
   padding: 20px;
-  margin: 20px;
-}
+  text-align: center;
 
-.default {
-  color: green;
-  border: 1px solid black;
-  height: 50px;
-}
-
-#special-one {
-  font-size: 22px;
-}
-#bye {
-  color: white;
-    
-}
-.text-center {
-    text-align:center;
 }
