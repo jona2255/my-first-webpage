@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container { padding: 1%; }
+.container:after { content: ""; clear: both; display: table;  }
+
+.row {  }
+
+.l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9 { float: left; }
+
+.l1 { width: 11.111111111%; }
+.l2 { width: 22.222222222%; }
+.l3 { width: 33.333333333%; }
+.l4 { width: 44.444444444%; }
+.l5 { width: 55.555555555%; }
+.l6 { width: 66.666666666%; }
+.l7 { width: 77.777777777%; }
+.l8 { width: 88.888888888%; }
+.l9 { width: 100%; }
+
+
+.box ul li { border: thin solid #dadada; }
