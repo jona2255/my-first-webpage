@@ -5,7 +5,7 @@
 }
 
 .mario {
-  animation: walk 1s steps(9) infinite forwards, slide-right 25s steps(1000) 1 forwards, hasta-luego 0s steps(1) 25s 1 forwards;
+  animation: walk 1s steps(9) infinite forwards, slide-right 25s steps(1000) 1 forwards, jump-mario 4s steps(1000) 12s 2 forwards, hasta-luego 0s steps(1) 25s 1 forwards;
 }
 
 .small-cloud {
@@ -35,7 +35,7 @@
 
 
 .tuberia {
-  animation: slide-left-2 10s steps(1000) 14s forwards;
+  animation: slide-left-2 10s steps(1000) 14.7s forwards;
 }
 
 .tuberia-2 {
@@ -55,8 +55,6 @@
 }
 
 
-
-
 @keyframes move {
   100% { background-position: -5000px 0px; }
 }
@@ -68,6 +66,11 @@
 @keyframes jump {
   50% { bottom: 226px; }
   100% { bottom: 113px; }
+}
+
+@keyframes jump-mario {
+  50% { bottom: 300px; }
+  100% { bottom: 110px; }
 }
 
 @keyframes slide-right {
